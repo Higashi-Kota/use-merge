@@ -1,0 +1,39 @@
+{
+  "name": "@nap5/use-merge",
+  "version": "1.0.0",
+  "description": "Merge utility hook with null exclusion using zod library.",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Higashi-Kota/use-merge"
+  },
+  "bugs": {
+    "url": "https://github.com/Higashi-Kota/use-merge"
+  },
+  "homepage": "https://github.com/Higashi-Kota/use-merge#readme",
+  "keywords": [
+    "react"
+  ],
+  "author": "Higashi-Kota",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc  -p .",
+    "do": "yarn run ts-node-esm",
+    "do-alias": "yarn run ts-node-esm -r tsconfig-paths/register",
+    "do-example": "yarn run ts-node example/index.js",
+    "do-example2": "yarn run ts-node example2/index.js"
+  },
+  "devDependencies": {
+    "@types/flat": "^5.0.2",
+    "@types/node": "^18.11.10",
+    "@types/ramda": "^0.28.20",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "flat": "^5.0.2",
+    "ramda": "^0.28.0",
+    "zod": "^3.19.1"
+  }
+}
