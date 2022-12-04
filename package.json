@@ -12,7 +12,9 @@
   },
   "homepage": "https://github.com/Higashi-Kota/use-merge#readme",
   "keywords": [
-    "react"
+    "react",
+    "merge",
+    "hooks"
   ],
   "author": "Higashi-Kota",
   "license": "MIT",
