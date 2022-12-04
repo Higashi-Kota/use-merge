@@ -1,6 +1,6 @@
 {
   "name": "@nap5/use-merge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Merge utility hook with null exclusion using zod library.",
   "main": "dist/index.js",
   "repository": {
